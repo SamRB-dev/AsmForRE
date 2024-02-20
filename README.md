@@ -1,6 +1,10 @@
 # ASM codes
 Each ASM file contains useful comments that might point the readers to topics for further reading.
-
+To use make.py for assembling your assembly code, make sure to have nasm installed on your system.
+**Syntax**:
+```shell
+python make.py <program.asm>
+```
 # Resources
 ## Assemblers
 - NASM
