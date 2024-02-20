@@ -1,5 +1,5 @@
 # ASM codes
-init
+Each ASM file contains useful comments that might point the readers to topics for further reading.
 
 # Resources
 ## Assemblers
@@ -8,11 +8,17 @@ init
     ```shell
     sudo pacman -S nasm
     ```
-- MASM
+    - Debian
+    ```shell
+    sudo apt-get update && sudo apt-get install nasm
+    ```
 
 ## x86 assembly
 - [x86 Assembly (NASM)](https://www.tutorialspoint.com/assembly_programming/index.htm)
 - [cs.lmu.edu](https://cs.lmu.edu/~ray/notes/x86assembly/)
+
+## 32 bit Linux syscalls
+- [syscalls32.paolostivanin.com](https://syscalls32.paolostivanin.com/)
 
 ## General
 - [Open Security Training](https://opensecuritytraining.info/Training.html)
